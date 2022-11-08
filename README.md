@@ -15,15 +15,15 @@
 
 1. Install the package:
     ```bash
-    npm i -D @sidebase/nuxt-session
+    npm i -D @dalucema/nuxt-session-tbj
     ```
 2. Add the package to your `nuxt.config.ts`:
     ```bash
     export default defineNuxtConfig({
-      modules: ['@sidebase/nuxt-session'],
+      modules: ['@dalucema/nuxt-session-tbj'],
     })
     ```
-3. Done! Each client will now have a unique session you can access on the server- and client side:
+3. Done! Each client will now have a unique session you can access on the server- and client side:.
     - client-side (from any `.vue` file):
         ```ts
         const { session, refresh, update, reset } = await useSession()
@@ -71,7 +71,7 @@ An example page making use of `nuxt-session`:
 
 See the playground to interactively use this:
 ```sh
-> git clone https://github.com/sidebase/nuxt-session
+> git clone https://github.com/dalucema/nuxt-session-tbj
 
 > cd nuxt-session
 
